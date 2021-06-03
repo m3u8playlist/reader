@@ -1,0 +1,22 @@
+sub_title=1024
+sub_has_logo=false
+sub_flag=false
+sub_tags=技术讨论区,新时代的我们,达盖尔的旗帜
+sub_first_url=http://t66y.com/thread0806.php?fid=7,http://t66y.com/thread0806.php?fid=8,http://t66y.com/thread0806.php?fid=16
+sub_more_url_pre=http://t66y.com/thread0806.php?fid=7&search=&page=,http://t66y.com/thread0806.php?fid=8&search=&page=,http://t66y.com/thread0806.php?fid=16&search=&page=
+sub_more_url_suffix=none
+sub_rule_container_select=#tbody
+sub_rule_items_select=td.tal
+sub_rule_date_select=none
+sub_rule_title_select=h3
+sub_rule_title_select_attr=none
+sub_rule_logo_select=none
+sub_rule_logo_select_attr=none
+sub_rule_url_select=h3 a
+sub_rule_url_select_attr=href
+sub_rule_logo_pre=none
+sub_rule_url_pre=http://t66y.com/
+item_rule_container_select=.tpc_content
+item_rule_img_replace_flag=true
+item_rule_img_replace_s=ess-data
+item_rule_img_replace_t=src
