@@ -112,7 +112,7 @@ sub_rule_title_select=a
 ```
 sub_rule_title_select_attr=none
 ```
-这是选择每个主题标题容器的属性，如没有则填none。 比如<h4>foo bar</h4>, 则填none，比如<span alt="foo bar">other string</span>,则填 alt
+这是选择每个主题标题容器的属性，如没有则填none。 比如```<h4>foo bar</h4>```, 则填none，比如```<span alt="foo bar">other string</span>```,则填 alt
 
 
 ```
@@ -123,7 +123,7 @@ sub_rule_logo_select=none
 ```
 sub_rule_logo_select_attr=none
 ```
-这是选择每个主题图标容器的属性，如没有则填none。 比如<h4>foo bar</h4>, 则填none，比如<span alt="foo bar">other string</span>,则填 alt，如果sub_has_logo=false，则填none
+这是选择每个主题图标容器的属性，如没有则填none。 比如```<h4>foo bar</h4>```, 则填none，比如```<span alt="foo bar">other string</span>```,则填 alt，如果sub_has_logo=false，则填none
 
 
 ```
@@ -134,7 +134,7 @@ sub_rule_url_select=a
 ```
 sub_rule_url_select_attr=href
 ```
-这是选择每个主题标题链接的属性，如没有则填none。 比如<p>http://example.com</p>, 则填none，比如<a href="http://example.com">link</a>,则填 href
+这是选择每个主题标题链接的属性，如没有则填none。 比如```<p>http://example.com</p>```, 则填none，比如```<a href="http://example.com">link</a>```,则填 href
 
 
 ```
