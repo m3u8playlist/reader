@@ -6,7 +6,7 @@ sub_has_multiple_pages_flag=true
 sub_can_search_flag=true
 sub_tags=更新日,收录日,日点击,周点击,月点击
 sub_first_url=https://www.cocomanhua.com/show?orderBy=update&page=1,https://www.cocomanhua.com/show?orderBy=create&page=1,https://www.cocomanhua.com/show?orderBy=dailyCount&page=1,https://www.cocomanhua.com/show?orderBy=weeklyCount&page=1,https://www.cocomanhua.com/show?orderBy=monthlyCount&page=1
-sub_other_url_pre=https://www.cocomanhua.com/show?orderBy=update&page=,https://www.cocomanhua.com/show?orderBy=create&page=,,https://www.cocomanhua.com/show?orderBy=dailyCount&page=,https://www.cocomanhua.com/show?orderBy=weeklyCount&page=,https://www.cocomanhua.com/show?orderBy=monthlyCount&page=
+sub_other_url_pre=https://www.cocomanhua.com/show?orderBy=update&page=,https://www.cocomanhua.com/show?orderBy=create&page=,https://www.cocomanhua.com/show?orderBy=dailyCount&page=,https://www.cocomanhua.com/show?orderBy=weeklyCount&page=,https://www.cocomanhua.com/show?orderBy=monthlyCount&page=
 sub_other_url_suffix=none
 sub_rule_container_select=.fed-part-case ul.fed-list-info
 sub_rule_items_select=li
