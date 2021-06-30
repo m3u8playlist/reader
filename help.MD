@@ -237,29 +237,91 @@ item_rule_img_select_attr=none
 
 
 #### 如果sub_has_multiple_pages_flag=true，即带有章节，需填写以下规则，否则全部填none
+
+```
 sub_second_container_select=none
+```
+章节页面的章节列表的总的容器
+
+
+
+```
 sub_second_items_select=none
+```
+每个章节的容器
+
+
+```
 sub_second_title_select=none
+```
+章节名字的容器
+
+
+```
 sub_second_title_select_attr=none
+```
+章节名字的容器的属性
+
+
+```
 sub_second_url_select=none
+```
+章节链接的容器
+
+
+```
 sub_second_url_select_attr=none
+```
+章节链接的容器的属性
+
+
+```
 sub_second_url_pre=none
+```
+如果章节是相对链接，则补全网站域名，否则填none
+
+
 
 
 #### 如果sub_can_search_flag=true，即可以搜索文章，需填写以下规则，否则全部填none
 
+```
 sub_search_url=none
+```
+```
 sub_search_url2=none
+```
+```
 sub_search_first_container_select=none
+```
+```
 sub_search_first_items_select=none
+```
+```
 sub_search_title_select=none
+```
+```
 sub_search_title_select_attr=none
+```
+```
 sub_search_logo_select=none
+```
+```
 sub_search_logo_select_attr=none
+```
+```
 sub_search_first_url_select=none
+```
+```
 sub_search_first_url_select_attr=none
+```
+```
 sub_search_logo_pre=none
+```
+```
 sub_search_first_url_pre=none
+```
+
 
 #### 补充说明
 
