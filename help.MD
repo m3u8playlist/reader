@@ -6,7 +6,7 @@
 
 ### 使用帮助
 
-1. 订阅页面，这里只能添加dotreader后缀的纯文本链接。
+#### 订阅页面，这里只能添加dotreader后缀的纯文本链接。
 
 ```
 正确的链接  https://raw.githubusercontent.com/m3u8playlist/reader/main/source/gold-miner.dotreader
@@ -20,7 +20,8 @@
 3. 添加订阅
 
 
-2. RSS页面，这里可以添加网页的rss链接
+#### RSS页面，这里可以添加网页的rss链接
+
 RSS页面右上角的2个图标从左往右依次是：
 1. 排序
 2. 添加订阅
