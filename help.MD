@@ -12,12 +12,15 @@
 
 ```
 sub_title=掘金翻译计划
-sub_has_logo=false
+sub_type=txt
 sub_flag=true
+sub_is_image_only_flag=false
+sub_has_multiple_pages_flag=false
+sub_can_search_flag=false
 sub_tags=iOS,区块链,人工智能,Android,前端,后端,设计,产品,其他
 sub_first_url=https://github.com/xitu/gold-miner/blob/master/ios.md,https://github.com/xitu/gold-miner/blob/master/blockchain.md,https://github.com/xitu/gold-miner/blob/master/AI.md,https://github.com/xitu/gold-miner/blob/master/android.md,https://github.com/xitu/gold-miner/blob/master/front-end.md,https://github.com/xitu/gold-miner/blob/master/backend.md,https://github.com/xitu/gold-miner/blob/master/design.md,https://github.com/xitu/gold-miner/blob/master/product.md,https://github.com/xitu/gold-miner/blob/master/others.md
-sub_more_url_pre=none,none,none,none,none,none,none,none,none
-sub_more_url_suffix=none
+sub_other_url_pre=none,none,none,none,none,none,none,none,none
+sub_other_url_suffix=none
 sub_rule_container_select=#repo-content-pjax-container #readme ul
 sub_rule_items_select=li
 sub_rule_date_select=none
@@ -33,27 +36,75 @@ item_rule_container_select=.container .markdown-body
 item_rule_img_replace_flag=false
 item_rule_img_replace_s=none
 item_rule_img_replace_t=none
+item_rule_img_select=none
+item_rule_img_select_attr=none
+sub_second_container_select=none
+sub_second_items_select=none
+sub_second_title_select=none
+sub_second_title_select_attr=none
+sub_second_url_select=none
+sub_second_url_select_attr=none
+sub_second_url_pre=none
+sub_search_url=none
+sub_search_url2=none
+sub_search_first_container_select=none
+sub_search_first_items_select=none
+sub_search_title_select=none
+sub_search_title_select_attr=none
+sub_search_logo_select=none
+sub_search_logo_select_attr=none
+sub_search_first_url_select=none
+sub_search_first_url_select_attr=none
+sub_search_logo_pre=none
+sub_search_first_url_pre=none
 ```
 
 =号前面不可更改，=号后面是用户自定义的规则
+
+
+
+
+#### 条目解释
+
 ```
 sub_title=掘金翻译计划
 ```
 添加订阅后显示在首页的名字，可以任取
 
 
+
 ```
-sub_has_logo=false
+sub_type=txt
 ```
-主题列表是否带图片，如果带图片则设置true，否则设置false
+这是订阅的显示类型，分为三种
++ txt
++ landscape
++ portrait
+
+txt的主题列表是不显示图标的
+landscape的主题列表显示横向的图片
+portrait的主题列表显示纵向的图片
+
+```
+sub_flag
+```
+一般网站设置成true
+
+```
+sub_is_image_only_flag=false
+```
+文章是否是纯图片内容，如果是纯图片则设置true，否则设置false
 
 
 ```
-sub_flag=true
+sub_has_multiple_pages_flag=false
 ```
-一般设置成true即可
+是否带有章节，如果带有章节，则设置true，如果不带章节，文章列表点击直接进入文章，则显示false。如果设置为true，需填写sub_second系列的解析规则，否则全部填none
 
-
+```
+sub_can_search_flag=false
+```
+是否可以搜索，如果可以，则设置true，否则设置false。如果设置为true，需填写sub_search系列的解析规则，否则全部填none
 
 ```
 sub_tags=iOS,区块链,人工智能,Android,前端,后端,设计,产品,其他
@@ -70,7 +121,7 @@ sub_first_url=https://github.com/xitu/gold-miner/blob/master/ios.md,https://gith
 
 
 ```
-sub_more_url_pre=none,none,none,none,none,none,none,none,none
+sub_other_url_pre=none,none,none,none,none,none,none,none,none
 ```
 这是每个分类后续页面对应的网址前半部分（即页数的前部分），中间用英文逗号连接，数目必须和上面的sub_tags数目一致
 
@@ -78,7 +129,7 @@ sub_more_url_pre=none,none,none,none,none,none,none,none,none
 
 
 ```
-sub_more_url_suffix=none
+sub_other_url_suffix=none
 ```
 这是每个分类后续页面对应的网址后半部分（即页数的后部分），中间用英文逗号连接，数目必须和上面的sub_tags数目一致，如没有则填none
 
