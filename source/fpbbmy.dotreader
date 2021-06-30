@@ -1,13 +1,13 @@
-sub_title=快报
+sub_title=fpbbmy
 ### txt,portrait,landscape
 sub_type=landscape
 sub_flag=false
 sub_is_image_only_flag=false
 sub_has_multiple_pages_flag=false
 sub_can_search_flag=false
-sub_tags=首页
-sub_first_url=https://fpbbmy.com/24/
-sub_other_url_pre=https://fpbbmy.com/24/page_
+sub_tags=快报,番号库
+sub_first_url=https://fpbbmy.com/24/,https://fpbbmy.com/22/
+sub_other_url_pre=https://fpbbmy.com/24/page_,https://fpbbmy.com/22/page_
 sub_other_url_suffix=.html
 sub_rule_container_select=.content .set_column
 sub_rule_items_select=.grid_item
