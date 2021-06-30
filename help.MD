@@ -303,35 +303,53 @@ sub_search_url2=none
 ```
 sub_search_first_container_select=none
 ```
-
+搜索页文章列表的容器
 
 ```
 sub_search_first_items_select=none
 ```
+搜索页每篇文章的容器
+
 ```
 sub_search_title_select=none
 ```
+搜索页每篇文章标题的容器
+
 ```
 sub_search_title_select_attr=none
 ```
+搜索页每篇文章标题的容器的属性
+
 ```
 sub_search_logo_select=none
 ```
+搜索页每篇文章图片的容器
+
 ```
 sub_search_logo_select_attr=none
 ```
+搜索页每篇文章图片的容器的属性
+
 ```
 sub_search_first_url_select=none
 ```
+搜索页每篇文章链接的容器
+
 ```
 sub_search_first_url_select_attr=none
 ```
+搜索页每篇文章链接的容器的属性
+
 ```
 sub_search_logo_pre=none
 ```
+如果图片是相对链接，则补全网站域名，否则填none
+
 ```
 sub_search_first_url_pre=none
 ```
+如果搜索页的文章是相对链接，则补全网站域名，否则填none
+
 
 
 #### 补充说明
