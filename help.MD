@@ -204,24 +204,64 @@ item_rule_container_select=.container .markdown-body
 这是单个主题页面的内容的容器
 
 
+
+
 ```
 item_rule_img_replace_flag=false
 ```
-选择是否替换图片链接，如要替换填true，否则填false
+选择是否替换图片链接，如要替换填true，否则填false。 此规则仅在sub_is_image_only_flag=false时有效
 
 ```
 item_rule_img_replace_s=none
 ```
-选择要替换的内容
+选择要替换的内容。此规则仅在sub_is_image_only_flag=false时有效
 
 
 ```
 item_rule_img_replace_t=none
 ```
-替换后的内容
+替换后的内容。此规则仅在sub_is_image_only_flag=false时有效
 
 
-关于最后三条的补充说明
+
+```
+item_rule_img_select=none
+```
+选择图片的容器，此规则仅在sub_is_image_only_flag=true时有效，否则填none
+
+
+```
+item_rule_img_select_attr=none
+```
+选择图片的容器的属性，此规则仅在sub_is_image_only_flag=true时有效，否则填none
+
+
+#### 如果sub_has_multiple_pages_flag=true，即带有章节，需填写以下规则，否则全部填none
+sub_second_container_select=none
+sub_second_items_select=none
+sub_second_title_select=none
+sub_second_title_select_attr=none
+sub_second_url_select=none
+sub_second_url_select_attr=none
+sub_second_url_pre=none
+
+
+#### 如果sub_can_search_flag=true，即可以搜索文章，需填写以下规则，否则全部填none
+
+sub_search_url=none
+sub_search_url2=none
+sub_search_first_container_select=none
+sub_search_first_items_select=none
+sub_search_title_select=none
+sub_search_title_select_attr=none
+sub_search_logo_select=none
+sub_search_logo_select_attr=none
+sub_search_first_url_select=none
+sub_search_first_url_select_attr=none
+sub_search_logo_pre=none
+sub_search_first_url_pre=none
+
+#### 补充说明
 
 ```
 <img ess-data='https://www.yudaotu.com/images/2021/06/14/1G1n.jpg' />
@@ -233,12 +273,5 @@ item_rule_img_replace_flag=true
 item_rule_img_replace_s=ess-data
 item_rule_img_replace_t=src
 ```
-
-
-
-
-
-
-
 
 
