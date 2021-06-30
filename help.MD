@@ -4,6 +4,28 @@
 
 小点阅读器是一款可以自定义规则来获得极佳阅读体验的app，用户只要掌握一点html和css技巧，就能自定义规则，截取网页的内容。
 
+### 使用帮助
+
+1. 订阅页面，这里只能添加dotreader后缀的纯文本链接。
+
+```
+正确的链接  https://raw.githubusercontent.com/m3u8playlist/reader/main/source/gold-miner.dotreader
+错误的链接  https://github.com/m3u8playlist/reader/blob/main/source/gold-miner.dotreader
+```
+第一个是纯文本，可以添加到订阅，第二个是网页，不可添加到订阅
+
+订阅页面右上角的3个图标从左往右依次是：
+1. 更新全部规则
+2. 排序
+3. 添加订阅
+
+
+2. RSS页面，这里可以添加网页的rss链接
+RSS页面右上角的2个图标从左往右依次是：
+1. 排序
+2. 添加订阅
+
+
 ### 订阅文件
 
 订阅文件是以.dotreader结尾的文本文件，只要添加数行css select规则即可。
