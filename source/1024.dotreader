@@ -4,9 +4,9 @@ sub_flag=false
 sub_is_image_only_flag=false
 sub_has_multiple_pages_flag=false
 sub_can_search_flag=false
-sub_tags=技术讨论区,新时代的我们,达盖尔的旗帜
-sub_first_url=http://t66y.com/thread0806.php?fid=7,http://t66y.com/thread0806.php?fid=8,http://t66y.com/thread0806.php?fid=16
-sub_other_url_pre=http://t66y.com/thread0806.php?fid=7&search=&page=,http://t66y.com/thread0806.php?fid=8&search=&page=,http://t66y.com/thread0806.php?fid=16&search=&page=
+sub_tags=技术讨论区,新时代的我们,达盖尔的旗帜,成人文学交流区
+sub_first_url=http://t66y.com/thread0806.php?fid=7,http://t66y.com/thread0806.php?fid=8,http://t66y.com/thread0806.php?fid=16,http://t66y.com/thread0806.php?fid=20
+sub_other_url_pre=http://t66y.com/thread0806.php?fid=7&search=&page=,http://t66y.com/thread0806.php?fid=8&search=&page=,http://t66y.com/thread0806.php?fid=16&search=&page=,http://t66y.com/thread0806.php?fid=20&search=&page=
 sub_other_url_suffix=none
 sub_rule_container_select=#tbody
 sub_rule_items_select=td.tal
