@@ -40,8 +40,8 @@ sub_search_first_url_select_attr=none
 sub_search_logo_pre=none
 sub_search_first_url_pre=none
 item_rule_container_select=.content .textarea
-item_rule_img_replace_flag=false
-item_rule_img_replace_s=none
-item_rule_img_replace_t=none
+item_rule_img_replace_flag=true
+item_rule_img_replace_s=img src="/
+item_rule_img_replace_t=img src="https://fpbbmy.com/
 item_rule_img_select=none
 item_rule_img_select_attr=none
