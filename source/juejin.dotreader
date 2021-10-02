@@ -4,7 +4,7 @@ sub_flag=true
 sub_is_image_only_flag=false
 sub_has_multiple_pages_flag=false
 sub_can_search_flag=false
-sub_tags=iOS,区块链,人工智能,Android,前端,后端,设计,产品,其他
+sub_tags=iOS
 sub_first_url=https://juejin.cn/ios?sort=newest
 sub_other_url_pre=none
 sub_other_url_suffix=none
