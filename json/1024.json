@@ -13,7 +13,7 @@
 	"list_date": "",
 	"list_title": "//a",
 	"list_logo": "",
-	"list_url": "//a[@href]",
+	"list_url": "//a/@href",
 	"chapter_node": "",
 	"chapter_title": "",
 	"chapter_url": "",
