@@ -9,7 +9,7 @@
 	"tags": "技術討論區",
 	"first_page_url": "http://t66y.com/thread0806.php?fid=7",
 	"other_page_url": "http://t66y.com/thread0806.php?fid=7&search=&page={pg}",
-	"list_node": "//*[@id='tbody']//tr//td[2]",
+	"list_node": "//*[@id='tbody']/tr/td[2]",
 	"list_date": "",
 	"list_title": "/h3/a",
 	"list_logo": "",
