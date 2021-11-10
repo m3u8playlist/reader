@@ -23,7 +23,7 @@
 	"search_list_title": "",
 	"search_list_logo": "",
 	"search_list_url": "",
-	"post_node": "//div[@class='tpc_content']",
+	"post_node": "//div[contains(@class, 'tpc_content')]",
 	"image_replace_flag": true,
 	"image_replace_s": "ess-data",
 	"image_replace_t": "src",
