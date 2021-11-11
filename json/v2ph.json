@@ -9,7 +9,7 @@
 	"tags": "中国大陆",
 	"first_page_url": "https://www.v2ph.com/country/china",
 	"other_page_url": "https://www.v2ph.com/country/china?page={pg}",
-	"list_node": "//h1/div[contains(@class, 'albums-list')]//div[contains(@class, 'card')]",
+	"list_node": "//div[contains(@class, 'thumbnail card')]",
 	"list_date": "",
 	"list_title": "//h6//a",
 	"list_logo": "//img/@data-src",
