@@ -12,7 +12,7 @@
 	"list_node": "//div[contains(@class, 'container')]//div[contains(@class, 'list-archive')]//div[contains(@class, 'list-item')]",
 	"list_date": "//div[contains(@class, 'flex-fill')]",
 	"list_title": "//div[contains(@class, 'list-body')]//a",
-	"list_logo": "regex:url\('([^']+)",
+	"list_logo": "regex:url\\('([^']+)",
 	"list_url": "//div[contains(@class, 'list-body')]//a/@href",
 	"chapter_node": "",
 	"chapter_title": "",
