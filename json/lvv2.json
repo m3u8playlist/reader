@@ -27,7 +27,7 @@
 	"image_replace_flag": false,
 	"image_replace_s": "",
 	"image_replace_t": "",
-	"post_images_node": "//div[contains(@class, 'usertext-body')]",
+	"post_images_node": "//div[contains(@class, 'usertext-body')]//p",
 	"post_images": "//img/@data-echo"
 
 }
