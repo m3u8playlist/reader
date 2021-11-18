@@ -8,7 +8,7 @@
 	"base_url": "https://sspai.com",
 	"tags": "首页",
 	"first_page_url": "https://sspai.com",
-	"other_page_url": ",",
+	"other_page_url": "",
 	"list_node": "//div[contains(@class, 'articleCard-box')]////div[contains(@class, 'ss-article-card-wrapper')]",
 	"list_date": "//div[contains(@class, 'pic_box')]//span",
 	"list_title": "//div[contains(@class, 'card_content')]/a",
