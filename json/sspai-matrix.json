@@ -10,7 +10,7 @@
 	"first_page_url": "https://sspai.com/matrix",
 	"other_page_url": "",
 	"list_node": "//ul[contains(@class, 'posts-list')]//li",
-	"list_date": "//span[contains(@class, 'post-other-item')][2]//span",
+	"list_date": "//span[contains(@class, 'post-other-item')][3]//span",
 	"list_title": "//div[contains(@class, 'post-title')]",
 	"list_logo": "",
 	"list_url": "//a[contains(@class, 'post-item')]/@href",
