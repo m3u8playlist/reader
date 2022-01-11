@@ -5,7 +5,7 @@
 	"image_only_flag": false,
 	"multiple_pages_flag": false,
 	"search_flag": false,
-	"base_url": "https://sarunw.com/",
+	"base_url": "https://sarunw.com",
 	"tags": "post",
 	"first_page_url": "https://sarunw.com/posts/",
 	"other_page_url": "",
