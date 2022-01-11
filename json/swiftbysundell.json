@@ -9,7 +9,7 @@
 	"tags": "文章",
 	"first_page_url": "https://www.swiftbysundell.com/articles/",
 	"other_page_url": "",
-	"list_node": "//ul[@class='item-list']//li",
+	"list_node": "//ul[@class='item-list']/li",
 	"list_date": "//span[@class='date']",
 	"list_title": "//h1/a",
 	"list_logo": "",
