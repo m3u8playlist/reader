@@ -10,7 +10,7 @@
 	"first_page_url": "https://sarunw.com/posts/",
 	"other_page_url": "",
 	"list_node": "//div[contains(@class, 'postscard')]/div[contains(@class, 'column')]",
-	"list_date": "//div[contains(@class, 'metadata')]",
+	"list_date": "//time",
 	"list_title": "//a",
 	"list_logo": "",
 	"list_url": "//a/@href",
