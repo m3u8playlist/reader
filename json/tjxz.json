@@ -11,7 +11,7 @@
 	"other_page_url": "https://www.tjxz.cc/page/{pg}",
 	"list_node": "//div[@id='main-content']/article",
 	"list_date": "//span[contains(@class,'mh-meta-date')]",
-	"list_title": "//p[@class='gy_box_txt2']//a",
+	"list_title": "//h3//a",
 	"list_logo": "//img/@src",
 	"list_url": "//h3//a/@href",
 	"chapter_node": "",
