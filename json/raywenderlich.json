@@ -1,7 +1,7 @@
 {
 	"uuid": "32bff86f-0ca8-4ea1-a4d8-42b0d520bdc0",
 	"sub_title": "raywenderlich",
-	"sub_type": "landscape",
+	"sub_type": "txt",
 	"image_only_flag": false,
 	"multiple_pages_flag": false,
 	"search_flag": false,
@@ -12,7 +12,7 @@
 	"list_node": "//a[@data-turbo-frame='_top' and matches(@href,'^/[0-9]+')]",
 	"list_date": "//span[contains(@class,'c-tutorial-item__metadata')]",
 	"list_title": "//span[@class='c-tutorial-item__title']",
-	"list_logo": "//img/@src",
+	"list_logo": "",
 	"list_url": "//a[@data-turbo-frame='_top']/@href",
 	"chapter_node": "",
 	"chapter_title": "",
