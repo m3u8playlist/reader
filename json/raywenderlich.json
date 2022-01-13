@@ -9,7 +9,7 @@
 	"tags": "Swift",
 	"first_page_url": "https://www.raywenderlich.com/library?content_types%5B%5D=article&domain_ids%5B%5D=1&limit_count=9&section_id=49&sort_direction=desc&sort_order=released_at",
 	"other_page_url": "https://www.raywenderlich.com/library?content_types%5B%5D=article&domain_ids%5B%5D=1&limit_count=9&page={pg}&section_id=49&sort_direction=desc&sort_order=released_at",
-	"list_node": "//a[@data-turbo-frame='_top' and matches(@href='^/[0-9]+')]",
+	"list_node": "//a[@data-turbo-frame='_top' and matches(@href,'^/[0-9]+')]",
 	"list_date": "//span[contains(@class,'c-tutorial-item__metadata')]",
 	"list_title": "//span[@class='c-tutorial-item__title']",
 	"list_logo": "//img/@src",
