@@ -9,7 +9,7 @@
 	"tags": "文章",
 	"first_page_url": "https://swiftwithmajid.com",
 	"other_page_url": "https://swiftwithmajid.com/page{pg}",
-	"list_node": "//[@class='posts']/article",
+	"list_node": "//div[@class='posts']/article",
 	"list_date": "//time",
 	"list_title": "//h2//a",
 	"list_logo": "",
