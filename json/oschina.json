@@ -23,7 +23,7 @@
 	"search_list_title": "",
 	"search_list_logo": "",
 	"search_list_url": "",
-	"post_node": "//div[contains(@class, 'article-box__content')]",
+	"post_node": "//div[contains(@class, 'article-box__content')]//div[@class='article-detail']",
 	"image_replace_flag": false,
 	"image_replace_s": "",
 	"image_replace_t": "",
