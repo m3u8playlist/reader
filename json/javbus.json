@@ -9,7 +9,7 @@
 	"tags": "老司機福利討論區",
 	"first_page_url": "https://www.javbus.com/forum/forum.php?mod=forumdisplay&fid=2",
 	"other_page_url": "https://www.javbus.com/forum/forum.php?mod=forumdisplay&fid=2&page={pg}",
-	"list_node": "//*[matches(@id, '^normalthread.+')]/tr//a[@class='s']",
+	"list_node": "//*[matches(@id, '^normalthread.+')]//a[@class='s']",
 	"list_date": "",
 	"list_title": "//a",
 	"list_logo": "",
