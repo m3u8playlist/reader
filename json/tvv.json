@@ -27,7 +27,7 @@
 	"image_replace_flag": false,
 	"image_replace_s": "",
 	"image_replace_t": "",
-	"post_images_node": "//div[contains(@class, 'blog-details-text')]",
+	"post_images_node": "//div[contains(@class, 'blog-details-text')]//img",
 	"post_images": "//img/@src"
 
 }
