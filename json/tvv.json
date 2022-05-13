@@ -23,11 +23,11 @@
 	"search_list_title": "",
 	"search_list_logo": "",
 	"search_list_url": "",
-	"post_node": "//div[contains(@class, 'blog-details-text')]//img/@src",
+	"post_node": "",
 	"image_replace_flag": false,
 	"image_replace_s": "",
 	"image_replace_t": "",
-	"post_images_node": "",
-	"post_images": ""
+	"post_images_node": "//div[contains(@class, 'blog-details-text')]",
+	"post_images": "//img/@src"
 
 }
