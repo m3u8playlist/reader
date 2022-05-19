@@ -1,0 +1,60 @@
+{
+	"uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
+  "info":"type 0 for txt",
+	"title": "1024",
+	"type": 0,
+	"image_only_flag": false,
+	"multiple_pages_flag": false,
+	"search_flag": false,
+	"base_url": "http://t66y.com/",
+	"category": [{
+			"title": "技術討論區",
+			"url0": "http://t66y.com/thread0806.php?fid=7",
+			"url1": "http://t66y.com/thread0806.php?fid=7&search=&page={pg}"
+		},
+		{
+			"title": "新時代的我們",
+			"url0": "http://t66y.com/thread0806.php?fid=8",
+			"url1": "http://t66y.com/thread0806.php?fid=8&search=&page={pg}"
+		},
+		{
+			"title": "達蓋爾的旗幟",
+			"url0": "http://t66y.com/thread0806.php?fid=16",
+			"url1": "http://t66y.com/thread0806.php?fid=16&search=&page={pg}"
+		},
+		{
+			"title": "成人文學交流區",
+			"url0": "http://t66y.com/thread0806.php?fid=20",
+			"url1": "http://t66y.com/thread0806.php?fid=20&search=&page={pg}"
+		}
+	],
+	"parse": {
+		"list_node": "//*[@id='tbody']/tr/td[2]/h3",
+		"list_date": "",
+		"list_title": "//a",
+		"list_image_id": "",
+    "list_image_regex": "",
+    "list_image_url": "{id}",
+		"list_link_id": "//a/@href",
+    "list_link_url": "{id}",
+		"chapter_node": "",
+		"chapter_title": "",
+    "chapter_link_id": "",
+		"chapter_link_url": "",
+		"search_first_page_url": "",
+		"search_other_page_url": "",
+		"search_list_node": "",
+		"search_list_title": "",   
+    "search_list_image_id": "",
+    "search_list_image_regex": "",
+    "search_list_image_url": "",    
+    "search_list_link_id": "",
+		"search_list_link_url": "",
+		"post_node": "//div[contains(@class, 'tpc_content')]",
+		"image_replace_flag": true,
+		"image_replace_target": "ess-data",
+		"image_replace_with": "src",
+		"post_images_node": "",
+		"post_images": ""
+	}
+}
