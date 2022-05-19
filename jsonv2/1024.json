@@ -1,8 +1,8 @@
 {
 	"uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
-	"info": "type 0 for txt",
+	"info": "type 3 for txt",
 	"title": "1024",
-	"type": 0,
+	"type": 3,
 	"image_only_flag": false,
 	"multiple_pages_flag": false,
 	"search_flag": false,
