@@ -1,0 +1,46 @@
+{
+"uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
+"info": "type 3 for txt,4 for small image",
+"title": "http://ryuryu.tw",
+"type": 4,
+"image_only_flag": true,
+"multiple_pages_flag": false,
+"search_flag": false,
+"base_url": "http://ryuryu.tw",
+"category": [
+{
+"title": "首页",
+"url0": "http://ryuryu.tw",
+"url1": "http://ryuryu.tw/page/{pg}"
+}
+],
+"parse": {
+"list_node": "//div[@class='post-feed']//article",
+"list_date": "//time",
+"list_title": "//h2",
+"list_image_id": "//img/@src",
+"list_image_regex": "",
+"list_image_url": "http://ryuryu.tw{id}",
+"list_link_id": "//a/@href",
+"list_link_url": "http://ryuryu.tw{id}",
+"chapter_node": "",
+"chapter_title": "",
+"chapter_link_id": "",
+"chapter_link_url": "",
+"search_first_page_url": "",
+"search_other_page_url": "",
+"search_list_node": "",
+"search_list_title": "",
+"search_list_image_id": "",
+"search_list_image_regex": "",
+"search_list_image_url": "",
+"search_list_link_id": "",
+"search_list_link_url": "",
+"post_node": "",
+"image_replace_flag": false,
+"image_replace_target": "",
+"image_replace_with": "",
+"post_images_node": "//section[contains(@class, 'gh-content')]//figure",
+"post_images": "//img/@src"
+}
+}
