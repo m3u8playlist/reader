@@ -1,0 +1,46 @@
+{
+"uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
+"info": "type 3 for txt",
+"title": "肘子的Swift记事本",
+"type": 3,
+"image_only_flag": false,
+"multiple_pages_flag": false,
+"search_flag": false,
+"base_url": "https://www.fatbobman.com",
+"category": [
+{
+"title": "blog",
+"url0": "https://www.fatbobman.com/posts/",
+"url1": ""
+}
+],
+"parse": {
+"list_node": "//div[@class='archiveContent']//li",
+"list_date": "",
+"list_title": "//a",
+"list_image_id": "",
+"list_image_regex": "",
+"list_image_url": "",
+"list_link_id": "//a/@href",
+"list_link_url": "https://www.fatbobman.com{id}",
+"chapter_node": "",
+"chapter_title": "",
+"chapter_link_id": "",
+"chapter_link_url": "",
+"search_first_page_url": "",
+"search_other_page_url": "",
+"search_list_node": "",
+"search_list_title": "",
+"search_list_image_id": "",
+"search_list_image_regex": "",
+"search_list_image_url": "",
+"search_list_link_id": "",
+"search_list_link_url": "",
+"post_node": "//article",
+"image_replace_flag": false,
+"image_replace_target": "",
+"image_replace_with": "",
+"post_images_node": "",
+"post_images": ""
+}
+}
