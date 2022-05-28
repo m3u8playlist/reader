@@ -36,7 +36,7 @@
 "search_list_image_url": "",
 "search_list_link_id": "",
 "search_list_link_url": "",
-"post_node": "//div[contains(@class, 'content')]",
+"post_node": "//div[contains(@class, 'column')]//div[@class='content']",
 "image_replace_flag": true,
 "image_replace_target": "data-src",
 "image_replace_with": "src",
