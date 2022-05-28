@@ -1,0 +1,46 @@
+{
+"uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
+"info": "type 3 for txt",
+"title": "Sarunw",
+"type": 3,
+"image_only_flag": false,
+"multiple_pages_flag": false,
+"search_flag": false,
+"base_url": "https://sarunw.com",
+"category": [
+{
+"title": "blog",
+"url0": "https://sarunw.com/posts/",
+"url1": ""
+}
+],
+"parse": {
+"list_node": "//div[contains(@class, 'postscard')]/div[contains(@class, 'column')]",
+"list_date": "//time",
+"list_title": "//a",
+"list_image_id": "",
+"list_image_regex": "",
+"list_image_url": "",
+"list_link_id": "//a/@href",
+"list_link_url": "https://sarunw.com{id}",
+"chapter_node": "",
+"chapter_title": "",
+"chapter_link_id": "",
+"chapter_link_url": "",
+"search_first_page_url": "",
+"search_other_page_url": "",
+"search_list_node": "",
+"search_list_title": "",
+"search_list_image_id": "",
+"search_list_image_regex": "",
+"search_list_image_url": "",
+"search_list_link_id": "",
+"search_list_link_url": "",
+"post_node": "//div[contains(@class, 'content')]",
+"image_replace_flag": true,
+"image_replace_target": "data-src",
+"image_replace_with": "src",
+"post_images_node": "",
+"post_images": ""
+}
+}
