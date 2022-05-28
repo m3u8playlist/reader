@@ -18,7 +18,7 @@
 "list_node": "//div[contains(@class, 'content')]//div[contains(@class, 'show')]",
 "list_date": "",
 "list_title": "//h3//a",
-"list_image_id": "//img/@data-echo",
+"list_image_id": "//img[contains(@alt,'image')]/@data-echo",
 "list_image_regex": "",
 "list_image_url": "{id}",
 "list_link_id": "//h3//a/@href",
