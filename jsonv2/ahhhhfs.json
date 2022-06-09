@@ -1,0 +1,46 @@
+{
+"uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
+"info": "type 3 for txt,4 for small image",
+"title": "ahhhhfs",
+"type": 4,
+"image_only_flag": false,
+"multiple_pages_flag": false,
+"search_flag": false,
+"base_url": "https://www.ahhhhfs.com",
+"category": [
+{
+"title": "首页",
+"url0": "https://www.ahhhhfs.com",
+"url1": "https://www.ahhhhfs.com/page/{pg}/"
+}
+],
+"parse": {
+"list_node": "//div[@id='rizhuti_v2_module_lastpost_item-2']//article",
+"list_date": "//time",
+"list_title": "//h2//a",
+"list_image_id": "//img/@data-src",
+"list_image_regex": "",
+"list_image_url": "{id}",
+"list_link_id": "//h2//a/@href",
+"list_link_url": "{id}",
+"chapter_node": "",
+"chapter_title": "",
+"chapter_link_id": "",
+"chapter_link_url": "",
+"search_first_page_url": "",
+"search_other_page_url": "",
+"search_list_node": "",
+"search_list_title": "",
+"search_list_image_id": "",
+"search_list_image_regex": "",
+"search_list_image_url": "",
+"search_list_link_id": "",
+"search_list_link_url": "",
+"post_node": "//div[contains(@class, 'entry-content')]",
+"image_replace_flag": false,
+"image_replace_target": "",
+"image_replace_with": "",
+"post_images_node": "",
+"post_images": ""
+}
+}
