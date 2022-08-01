@@ -26,7 +26,10 @@
 			"title": "成人文學交流區",
 			"url0": "http://t66y.com/thread0806.php?fid=20",
 			"url1": "http://t66y.com/thread0806.php?fid=20&search=&page={pg}"
-		}
+		},{"title": "无码區",
+			"url0": "http://t66y.com/thread0806.php?fid=2",
+			"url1": "http://t66y.com/thread0806.php?fid=2&search=&page={pg}"
+}
 	],
 	"parse": {
 		"list_node": "//*[@id='tbody']/tr/td[2]/h3",
