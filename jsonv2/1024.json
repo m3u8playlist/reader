@@ -26,10 +26,22 @@
 			"title": "成人文學交流區",
 			"url0": "http://t66y.com/thread0806.php?fid=20",
 			"url1": "http://t66y.com/thread0806.php?fid=20&search=&page={pg}"
-		},{"title": "无码區",
+		},
+		{
+			"title": "亞洲無碼原創區",
 			"url0": "http://t66y.com/thread0806.php?fid=2",
 			"url1": "http://t66y.com/thread0806.php?fid=2&search=&page={pg}"
-}
+                },
+		{
+			"title": "亞洲有碼原創區",
+			"url0": "http://t66y.com/thread0806.php?fid=15",
+			"url1": "http://t66y.com/thread0806.php?fid=15&search=&page={pg}"
+                },
+		{
+			"title": "歐美原創區",
+			"url0": "http://t66y.com/thread0806.php?fid=4",
+			"url1": "http://t66y.com/thread0806.php?fid=4&search=&page={pg}"
+                }
 	],
 	"parse": {
 		"list_node": "//*[@id='tbody']/tr/td[2]/h3",
