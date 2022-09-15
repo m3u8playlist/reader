@@ -37,9 +37,9 @@
 "search_list_link_id": "",
 "search_list_link_url": "",
 "post_node": "//div[contains(@class, 'entry-content')]",
-"image_replace_flag": false,
-"image_replace_target": "",
-"image_replace_with": "",
+"image_replace_flag": true,
+"image_replace_target": "data-lazy-src",
+"image_replace_with": "src",
 "post_images_node": "",
 "post_images": ""
 }
