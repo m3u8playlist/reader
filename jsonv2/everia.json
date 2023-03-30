@@ -1,28 +1,28 @@
 {
 "uuid": "113229a0-0686-4e9c-ad0c-01f45ce48918",
 "info": "type 3 for txt,4 for small image",
-"title": "http://ryuryu.tw",
+"title": "everia.club",
 "type": 4,
 "image_only_flag": true,
 "multiple_pages_flag": false,
 "search_flag": false,
-"base_url": "http://ryuryu.tw",
+"base_url": "https://everia.club",
 "category": [
 {
 "title": "首页",
-"url0": "http://ryuryu.tw",
-"url1": "http://ryuryu.tw/page/{pg}"
+"url0": "https://everia.club",
+"url1": "https://everia.club/?paged={pg}"
 }
 ],
 "parse": {
-"list_node": "//div[@class='post-feed']//article",
-"list_date": "//time",
+"list_node": "//div[@class='posts-wrapper']//article",
+"list_date": "",
 "list_title": "//h2",
 "list_image_id": "//img/@src",
 "list_image_regex": "",
-"list_image_url": "http://ryuryu.tw{id}",
-"list_link_id": "//a/@href",
-"list_link_url": "http://ryuryu.tw{id}",
+"list_image_url": "{id}",
+"list_link_id": "//h2/a/@href",
+"list_link_url": "{id}",
 "chapter_node": "",
 "chapter_title": "",
 "chapter_link_id": "",
@@ -40,7 +40,7 @@
 "image_replace_flag": false,
 "image_replace_target": "",
 "image_replace_with": "",
-"post_images_node": "//section[contains(@class, 'gh-content')]//figure",
-"post_images": "//img/@src"
+"post_images_node": "//figure[contains(@class, 'wp-block-gallery')]//figure",
+"post_images": "//img/@data-src"
 }
 }
