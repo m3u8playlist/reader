@@ -18,7 +18,7 @@
 "list_node": "//div[@class='posts-wrapper']//article",
 "list_date": "",
 "list_title": "//h2",
-"list_image_id": "//img/@src",
+"list_image_id": "//img/@data-src",
 "list_image_regex": "",
 "list_image_url": "{id}",
 "list_link_id": "//h2/a/@href",
